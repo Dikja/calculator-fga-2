@@ -1,20 +1,25 @@
 .calculator {
     text-align: center;
     margin: 0 auto;
-    padding-top: 100px;
+    margin-top: 10px;
     width: 400px;
+    border: 2px solid #b9b108;
+    border-radius: 20px;    
 }
 
 .calculator-screen{
-    width: 100%;
-    height: 100px;
+    width: 95%;
+    height: 150px;
     text-align: right;
     color: white;
-    background-color: black;
+    background-color: #9EB23B;
+    opacity: 0.8;
+    margin-top: 20px;
     padding: 0 20px;
-    font-size: 36px;
+    font-size: 50px;
     border: none;
     box-sizing: border-box;
+    border-radius: 20px;
 }
 
 .calculator-keys{
@@ -27,13 +32,15 @@
 
 button{
     height: 80px;
-    background-color: gray;
-    border: 1px solid black;
+    background-color: #C7D36F;
     font-size: 32px;
     color: white;
     width: 25%;
-    outline: none;
     cursor: pointer;
+    border-radius: 80px;
+    margin: 10px;
+    border: none;
+    opacity: 0.7;
 }
 
 .all-clear, .zero-btn {
@@ -45,7 +52,8 @@ button{
 }
 
 button:hover{
-    background-color: darkgray;
+    background-color: #C7D36F;
+    opacity: 1;
 }
 
 .operator:hover, .equal-sign:hover{
